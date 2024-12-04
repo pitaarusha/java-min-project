@@ -1,3 +1,4 @@
+package OOP;
 import java.util.Scanner;
 
 // call the method in a main methods
