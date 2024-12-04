@@ -53,10 +53,10 @@ public class GPA {
             gpa_history = 3;
         } else if (hist >= 2) {
             System.out.println("D");
-            gpa_history = 1;
+            gpa_history = 2;
         } else {
             System.out.println("F");
-            gpa_history = 5;
+            gpa_history = 1;
         }
 
         // civ runs here
