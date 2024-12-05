@@ -1,13 +1,19 @@
-# # from typing import Self
-# import py_compile
+import math 
+
+def huawei():
+    number = int(input("enter number here:"))
+    print(number)
+    #create object of the class
+    Bike1 = Bike()
+    print(Bike.name)
 
 
-# class Person:
-#     def __init__(self, name, age):
-# #    show how object works in python
-# Self.name = name
-# Self.age = age
+#here is the class created in python
+class Bike:
+    name = ""
+    gear = 0
+    #assign the value of the class
+Bike.gear = "mountain bike"
+Bike.name = input("enter the name \n") 
+huawei()
 
-# audi = Person(john, 33)
-# print(Person.name)
-# print(Person.age)
