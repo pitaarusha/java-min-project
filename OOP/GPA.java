@@ -101,6 +101,7 @@ public class GPA {
             gpa_physics = 4;
         } else if (phy >= 50) {
             System.out.println("C");
+
             gpa_physics = 3;
         } else if (phy >= 40) {
             System.out.println("D");
